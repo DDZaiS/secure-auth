@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>登入測試 Login Test</title>
+  <link rel="stylesheet" href="style.css"> <!-- ★ 引入 CSS -->
+</head>
+<body>
+  <h1>簡單登入系統 Simple Login System</h1>
+
+  <div class="form">
+    <h2>註冊 Register</h2>
+    <input id="regEmail" type="email" placeholder="Email 電子郵件">
+    <input id="regPass" type="password" placeholder="Password 密碼">
+    <button onclick="register()">註冊 Register</button>
+    <pre id="regResult"></pre>
+  </div>
+
+  <div class="form">
+    <h2>登入 Login</h2>
+    <input id="loginEmail" type="email" placeholder="Email 電子郵件">
+    <input id="loginPass" type="password" placeholder="Password 密碼">
+    <button onclick="login()">登入 Login</button>
+    <pre id="loginResult"></pre>
+  </div>
+
+  <script src="script.js"></script> <!-- ★ 引入 JS -->
+</body>
+</html>
