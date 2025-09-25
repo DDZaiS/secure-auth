@@ -6,6 +6,7 @@ Objectives:
 - Implement strong authentication (hashing, MFA)
 - Prevent vulnerabilities (SQL Injection, XSS)
 - Perform security testing
+
 Deliverables:
 - Source Code (well-documented)
 - Report (3–5 pages) on design, security measures, testing
